@@ -32,6 +32,7 @@ defmodule Cluster.Mixfile do
     [{:ex_doc, "~> 0.13", only: :dev},
      {:dialyxir, "~> 0.3", only: :dev},
      {:exvcr, "~> 0.8", only: :test},
+     {:inch_ex, github: "rrrene/inch_ex", only: [:dev, :test]},
      {:jason, "~> 1.0"}]
   end
 
